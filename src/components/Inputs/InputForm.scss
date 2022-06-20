@@ -1,0 +1,36 @@
+.label{
+    margin-bottom: 5px;
+    font-size: 18px;
+
+    @media(max-width: 650px) {
+        font-size: 14px;
+        
+    }
+}
+
+.primario {
+    width: 100%;
+    padding: 10px 5px;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.error{
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: 16px;
+    
+    @media(max-width: 650px) {
+        font-size: 14px;
+        
+    }
+}
+
+ 
+
+
+
+
+

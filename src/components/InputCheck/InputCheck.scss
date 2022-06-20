@@ -1,0 +1,33 @@
+.error{
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: 16px;
+
+    @media(max-width: 650px) {
+        font-size: 14px;
+        
+    }
+}
+
+.label{
+    font-weight: bold;
+
+    @media(max-width: 650px) {
+        font-size: 14px;
+        
+    }
+}
+
+.check input{
+    min-width: 20px;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
